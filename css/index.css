@@ -168,6 +168,9 @@ p {
   background-color: #dedede;
   padding-top: 15px;
   padding-bottom: 15px;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
 }
 .navbar h1 {
   font-size: 4rem;
@@ -198,6 +201,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro {
+  padding-top: 100px;
 }
 .home .intro img {
   border-radius: 5px;
