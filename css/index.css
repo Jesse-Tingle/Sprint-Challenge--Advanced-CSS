@@ -171,6 +171,7 @@ p {
   overflow: hidden;
   position: fixed;
   width: 100%;
+  opacity: 0.8;
 }
 .navbar h1 {
   font-size: 4rem;
