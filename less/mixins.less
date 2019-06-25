@@ -1,1 +1,13 @@
 // Mixins Here
+
+.flex(@j-content: space-between; @a-items: center) {
+	display: flex;
+	justify-content: @j-content;
+	align-items: @a-items;
+}
+
+.font (@f-size; @f-color; @f-weight) {
+    font-size: @f-size;
+    color: @f-color;
+    font-weight: @f-weight;
+}
